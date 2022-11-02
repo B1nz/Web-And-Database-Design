@@ -1,0 +1,13 @@
+Member List :
+
+黃堅睿 - 022
+穆文塘 - 023
+劉泰佑 - 030
+黃小里 - 031
+楊仕寅 - 035
+
+
+Database Details :
+
+DB Name	= ksu_tinyproject
+Table Name	= biodata

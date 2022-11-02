@@ -1,0 +1,11 @@
+Name 		: Luthfi Goldiansyah Kusumajadi
+Chinese Name	: 劉泰有
+
+
+Answer :
+
+1. SELECT ksu_std_name, ksu_std_age, ksu_std_grade FROM `ksu_std_table` WHERE ksu_std_grade <= 40 AND ksu_std_department = "CS"
+
+2. SELECT ksu_std_name, ksu_std_age, ksu_std_grade FROM `ksu_std_table` WHERE ksu_std_name LIKE '%Sieg%' OR ksu_std_name LIKE '%Penny%'
+
+3. SELECT A2.dept_name AS 'Dept', MAX(A1.ksu_std_grade) AS 'MaxScore', COUNT(A1.ksu_std_department) AS 'Total' FROM ksu_std_table A1, dept_detail A2 WHERE A1.ksu_std_department = A2.dept_id GROUP BY A1.ksu_std_department ORDER BY Score DESC
